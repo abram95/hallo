@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'HalloApp';
+
+ tweet ={
+   boady : "this is tweet",
+   like  :true,
+   totlaLikes:25
+ }
+
+
+ onLikeChange(likeStatus){
+   // notify server that the like is changed
+   console.log("like state is changed : " + likeStatus)
+ }
+
+
 }

@@ -1,0 +1,9 @@
+
+
+div{
+    display: inline-block;
+}
+
+svg:hover{
+    cursor: pointer;
+}

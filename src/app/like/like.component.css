@@ -1,0 +1,8 @@
+
+.normalLike{
+    cursor: pointer;
+    color: #999;
+}
+.active {
+    color: red !important;
+}
